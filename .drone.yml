@@ -6,9 +6,8 @@ steps:
   - name: greeting
     image: alpine
     commands:
-      - echo hello
-      - echo world
-
+    - echo hello
+    - echo world
   trigger:
     event:
-      - push
+    - push
